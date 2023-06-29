@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+*::-webkit-input-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  background-clip: padding-box;
+  border: 2px solid rgba(0, 0, 0, 0);
+  min-height: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background: rgba(0, 0, 0, 0.61);
+  border-radius: 100px;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #000;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #000;
+}
+
+html, body {
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
+.container{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  max-width: 1200px;
+  margin-bottom: 25px;
+
+}
+
+.header{
+  height: 80px;
+  background-color: #000;
+}
+
+.logo{
+  position: absolute;
+  margin-top: 14px;
+}
+
+
+
+
+.items{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.links{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.links:hover{
+  color: rgb(14, 199, 14);
+}
+
+
+.bgimg{
+  position: absolute;
+  margin: 0px 40px 0px 0px;
+}
+
+.descript{
+  font-weight: 400;
+  font-size: 32px;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  font-size: 29px;  
+}
+
+.background{
+  position: relative;
+  width: 1200px;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+.list-item{
+  border: 20px solid #fff;
+  background-color: #fff;
+  /*border: 13px solid rgb(194, 184, 184);
+  background-color: rgb(194, 184, 184);*/
+  border-radius: 50%;
+}
+
+.news{
+margin-top: 189px;
+}
+
+.text{
+  font-weight: 700; 
+  font-size: 40px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 50px;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  text-align: center;
+  /*font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;*/
+}
+
+.text > p{
+  padding-bottom: 15px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 270px;
+  padding: 0 9px;
+
+}
+
+.cards-title{
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.cards-title, .cards-description{
+  font-size: 14px;
+  text-align: center;
+}
+
+.cards-img{
+  width: 167px;
+  height: 250px;
+  margin: 0;
+}
+
+.footer{
+  /*height: 554px;*/
+  background-color: #000;
+}
+
+.title-one{
+  color: #919496;
+  margin: 20px 50px;
+}
+
+.list-company-item{
+  padding: 3px 0 15px;
+}
+
+.footer-info{
+  display: flex;
+  padding: 80px 0 50px;
+}
+.ul-company-items, .ul-communities-items, .ul-usefullinks-items{
+  padding: 0px 50px;
+}
+
+.footer-bottom-one{
+  color: #919496;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-bottom-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+
+}
+
+.footer-bottom-list{
+  font-size: 14px;
+  margin: 0 45px 0 0;
+  padding: 0 0 0 15px;
+
+}
+
+.footer-list-items, .footer-text{
+  color: #919496; 
+}
+
+.footer-list-items{
+  padding: 12px 8px;
+
+}
+
+.footer-text{
+  font-size: 13px;
+  margin: 0 0 0 auto;
+}
+
+.international-link, .footer-links-items{
+  color: #919496;
+}
+
+.footer-links-items:hover, .useful-links-link:hover, .company-link-item:hover, .company-link-item:hover, .international-link:hover{
+  color: rgb(14, 199, 14);
+}
+
+.footer-sign{
+  display: flex;
+  flex-direction: column;
+  
+}
